@@ -50,7 +50,7 @@ Get Discrete Trading Signals.
 ## Installation
 
 ```bash
-git clone [<repo-url>](https://github.com/PranithMahanti/NLP-SentimentAnalysis/
+git clone https://github.com/PranithMahanti/NLP-SentimentAnalysis/
 cd NLP-SentimentAnalysis/
 pip install -r requirements.txt
 ```
