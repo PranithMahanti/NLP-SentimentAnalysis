@@ -3,27 +3,10 @@
 
 This project builds a supervised ML pipeline to generate **discrete BUY / SELL / HOLD signals** for NIFTY50 based on 1-day price movement prediction.
 
----
-
-## Project Structure
-├── data/
-├── notebooks/
-│ └── NIFTY50_signal_model.ipynb
-├── models/
-│ └── saved_models/ # Serialized ML models
-├── results/
-│ ├── metrics/ # Accuracy, classification reports
-│ └── plots/ # Performance charts
-└── README.md
-
-
----
-
 ## Objective
-Predict next-day direction of NIFTY50 →  
-`UP (1)` / `DOWN (−1)` converted into discrete trading signals.
+Predict next-day direction of NIFTY50. 
+Get Discrete Trading Signals.
 
----
 
 ## Features
 - Daily sentiment score (FinBERT)
@@ -31,7 +14,6 @@ Predict next-day direction of NIFTY50 →
 - Lagged returns
 - Volume-based features
 
----
 
 ## Models Implemented
 
@@ -44,7 +26,6 @@ Predict next-day direction of NIFTY50 →
 | Support Vector Classifier | `sklearn.svm.SVC` |
 | MLP Neural Network | `sklearn.neural_network.MLPClassifier` |
 
----
 
 ## Workflow
 1) Load RSS articles > clean > FinBERT score  
@@ -57,7 +38,6 @@ Predict next-day direction of NIFTY50 →
 8) Evaluate and Compare 
 9) Save best models  
 
----
 
 ## Evaluation Metrics
 - Accuracy
@@ -66,16 +46,14 @@ Predict next-day direction of NIFTY50 →
 - Confusion Matrix
 - Classification Report
 
----
 
-## 🛠 Installation
+## Installation
 
 ```bash
-git clone <repo-url>
-cd <project>
+git clone [<repo-url>](https://github.com/PranithMahanti/NLP-SentimentAnalysis/
+cd NLP-SentimentAnalysis/
 pip install -r requirements.txt
 ```
----
 
 ## Author
 (Pranith Mahanti) [https://github.com/PranithMahanti/]
